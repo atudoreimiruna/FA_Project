@@ -1,0 +1,31 @@
+<!-- <p appMouse> mouseAction Directive Demo</p> -->
+<div class="container">
+
+    <div class="form-section">
+        <h1 class="title">
+            Hello, you can login in your account here!
+        </h1>
+
+        <form [formGroup]="loginForm" class="book-form">
+            <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+                <input matInput placeholder="Email" formControlName="email">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+                <input matInput type="password" placeholder="Password" formControlName="password">
+            </mat-form-field>
+        </form>
+
+        <button mat-raised-button (click)="login()" class="demo-button">
+            Login
+        </button>
+        
+        <button mat-raised-button (click)="register()" class="demo-button" >
+            Create a new account
+        </button>
+    </div>
+    
+</div>
+

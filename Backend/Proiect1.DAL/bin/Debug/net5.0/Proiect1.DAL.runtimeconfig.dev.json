@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\atudo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\atudo\\.nuget\\packages"
+    ]
+  }
+}

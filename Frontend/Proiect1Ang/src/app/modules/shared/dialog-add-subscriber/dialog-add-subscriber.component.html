@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>
+      Subscription
+    </h1>
+    
+    <form [formGroup]="newsletterForm" class="newsletter-form">
+        <mat-form-field appearance="outline">
+            <mat-label> Email</mat-label>
+                <input matInput placeholder="Email" formControlName="email">
+        </mat-form-field>
+    </form>
+
+    <div class="actions">
+        <div class="button-wrapper" (click)="closeDialog()" appBtnHover>
+            Cancel
+        </div>
+        
+        <div class="button-wrapper" (click)="saveSubscriber()" appBtnHover>
+            Save
+        </div>
+    </div>
+
+  </div>
+  
